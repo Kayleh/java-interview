@@ -3,18 +3,41 @@
 
 
 > 作者：牛客277022285号
->链接：https://www.nowcoder.com/discuss/929644?source_id=discuss_experience_nctrack&channel=-1
+>
+> 链接：https://www.nowcoder.com/discuss/929644?source_id=discuss_experience_nctrack&channel=-1
+> 
 > 来源：牛客网
 
 1项目中token如何使用的 
+
+> 客户端第一次登陆输入账号密码，登录携带账号密码参数请求服务端。
+>
+> 服务端收到正确的账号密码后，生成并返回一个字符串（token）给回客户端，它将作为客户端请求接口的一个令牌，告诉服务端我是登录过的，是有权限访问其他接口的。
+>
+> 客户端请求其他的接口时，需要携带token请求参数即可，无需再次输入账号密码，可以解决频繁登陆问题。
+
 2你会在token中存在用户的一些基本信息吗，如何存。 
-3我说大部分数据还是存在session中，HR顺者问你会去清理session的数据吗？如何做的 
+
+3如果存在session中，你会去清理session的数据吗？如何做的 
+
 5spring mvc的使用流程 
+
 6mybatis是停留在使用层面还是有更深的理解 
+
 7mybatis #和$的区别 
+
+> $是直接拼接字符，#防止SQL注入
+
 8mybatis 中如何传递多个参数 
+
 9mybatis 中如何做分页 
+
 10如何优化数据库操作 
+
+> 减少子查询，嵌套子查询 
+
 11数据库的子查询，嵌套子查询 
-12 jsp（汉得昨天刚问完不会，今天继续摆烂没去看） 
-13 spring mvc这样做有什么好处（说了俩字，解藕 ，给面试官整笑了，似乎回答到了点又似乎没有😂） 
+
+12 jsp
+
+13 spring mvc这样做有什么好处
