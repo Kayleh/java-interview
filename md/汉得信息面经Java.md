@@ -43,7 +43,9 @@ Java8新特性（摆烂没答出来）
 > lambda
 
 Java中的io方式 
+
 io输入与输出的分别相对于谁来说 
+
 数据库事务4大特性 
 
 > 原子性
@@ -53,6 +55,7 @@ io输入与输出的分别相对于谁来说
 > 数据库数据量大，查询压力大时
 
 数据库 全/左外/又外/内 链接简单说明 
+
 数据库中用过那些聚合函数 
 
 > max , count , sum
@@ -62,21 +65,45 @@ jvm的基本结构
 > 程序计数器、方法区、堆、堆外内存、栈。。。
 
 jvm中那些结构是线程独有和共有的 
-jsp有没有用过（因为不记得jsp的东西了，我直接说了没有）😅 
+
+jsp有没有用过
+
 spring mvc的基本结构和程序流程 
+
 spring mvc用过那些注解 
+
 spring的特性（我只说了ioc和aop） 
+
 spring和springboot的关系，为什么要有springboot 
+
 项目中如何去暴露controller中的接口 
+
 cookie和session的区别 
+
 mybatis用过什么标签 
+
+> <for>、<if>
+
 mybatis#和$的区别 
+
+> #预编译，防止sql注入
+>
+> $直接拼接参数，有sql注入的风险
+
 为什么要使用mybatis，而不是jdbc 
+
 spring事务的了解 
+
 git分布式版本控制能干什么 
+
 git分支合并的命令 
+
 linux你使用过吗，用到了那些命令 
+
 Maven的理解 
-springboot使用那些设计模式（不知道） 
+
+springboot使用那些设计模式
+
 Ajax技术的基本使用和原理 
+
 springboot中bean的生命周期 
